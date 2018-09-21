@@ -1,5 +1,5 @@
 # gdmpasswd
-Dumps the currently logged on users' password from gdm-password process memory.
+Dumps potential cleartext passwords for the currently logged on user from the gdm-password process memory.
 
 ```
 root@pwnd:~# ./gdmpasswd.sh 
