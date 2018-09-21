@@ -31,3 +31,5 @@ shadow
 root@pwnd:~# 
 
 ```
+
+* Due to the where the correct password string ends up in memory, and its "near by" strings, it might not work every time.
